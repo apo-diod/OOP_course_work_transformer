@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const SWD = "C:/Users/Andrey/Documents/Projects/OOP_course_work_modules/transformer/"
+const SWD = "../OOP_course_work_modules/transformer/"
 
 func useModule(id string, data string) {
 	log.Println("executing test with", data)
