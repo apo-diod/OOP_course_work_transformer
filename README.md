@@ -9,9 +9,9 @@ Has 2 API Endpoints:
 		  "script": "script starting with [def main(data):] that returns dictionary object with transformed data"
 	  }
   }
-2) /link -> links receiver and transformer modules      
+2) /link -> links transformer and sender modules      
   syntax:
   {
-	  "first": "receiver_id",
-	  "second": "transformer_id"
+	  "first": "transformer_id",
+	  "second": "sender_id"
   }
